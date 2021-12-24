@@ -1,0 +1,28 @@
+body {
+    background-image:url("110768444-mustaches-vector-seamless-pattern-hipster-moustache-background-in-doodle-style-.webp");
+    text-align:center;
+}
+
+canvas {
+    border-width:2px;
+    border-style:dashed;
+    border-color:"black";
+    animation-name:glow;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    
+}
+
+.btn-warning:hover {
+     background-color:rgb(255, 108, 108);
+}
+
+@keyframes glow{
+    from{
+        box-shadow:2px 3px 20px green;
+    }
+       
+    to{
+        box-shadow:2px 3px 20px blue;
+    }
+}
